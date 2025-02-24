@@ -8,7 +8,8 @@ namespace L20250217
 {
     public class World
     {
-        public GameObject[] gameObjects = new GameObject[100];
+        //public GameObject[] gameObjects = new GameObject[100];
+        List<GameObject> gameObjects = new List<GameObject>();
         int useGameObjectCount = 0;
 
         public void Instanciate(GameObject gameObject)
